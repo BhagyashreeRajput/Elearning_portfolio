@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0eeb69f803.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/home.css">
+    </link>
+    <link rel="stylesheet" href="./buypage.css">
+    </link>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- navbar -->
+        <div class="fix_nav">
+            <div class="navbar">
+                <ul class="nav_items">
+                    <li class="nav_logo"><img src="./ht-image/blacklogo.jpg" height="70px" width="250px"></li>
+                    <div class="nav_item1">
+                        <a href="/">
+                            <ul class="nav_item"> HOME</ul>
+                        </a>
+
+                        <a href="/COURSES.html">
+                            <ul class="nav_item"> COURSES</ul>
+                        </a>
+                        <a href="/ABOUT.html">
+                            <ul class="nav_item"> ABOUT US</ul>
+                        </a>
+                        <a href="/CONATACT.html"><ul class="nav_item"> CONTACT US</ul></a>
+
+                    </div>
+                </ul>
+                <button class="nav_btn">Sign Up</button>
+            </div>
+        </div>
+      <!-- buy page banner -->
+
+      <div class="buy-banner">
+        <p class="buy-head2">Welcome to @NexErudite Family</p>
+        <h2 class="buy-head3"> Data Structures & Algorithms BootCamp @Supreme-3.0</h2>
+        <div class="buy-head4">
+            <p class="lec"> <i class="fa-solid fa-video"></i> &nbsp;100+ Lectures</p>
+            <p class="star"> 4.9 &nbsp; <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i></p>
+        </div>
+        <img src="/ht-image/dsa.png" height="230px" width="400px" class="buy_img">
+      </div>
+      <div class="course_form">
+        <div class="buy-btn">
+        <div class="toggle-container">
+            <button id="student-btn" class="toggle-button">Student</button>
+            <button id="instructor-btn" class="toggle-button">Instructor</button>
+        </div>
+        <div id="role-display" class="role-display">
+            <i class="icon"></i>
+            <span class="role-text">Select a role</span>
+        </div>
+    </div>
+
+        
+        <div class="b-sec1">
+            <!-- name -->
+            <div class="b-name">
+                <label for="fname" class="buy-name"> Name <sup>* </sup></label> <br>
+                <input type="text" id="fname" name="fname" class="iptname" placeholder="Enter Your Name">
+            </div>
+            <br><br>
+
+           
+            <!-- mail -->
+            <div class="b-email">
+                <label for="email" class="buy-name">Email</label> <br />
+                <input type="text" id="email" name="email" class="iptname" placeholder="Enter Your Email">
+            </div>
+            <br><br>
+        </div>
+
+        <div class="b-sec2">
+            <!-- phone no -->
+            <div class="b-phone">
+                <label for="phoneno" class="buy-name">Phone Number</label> <br />
+                <input type="text" id="phoneno" name="phoneno." class="iptname"
+                    placeholder="Enter Your Phone no.">
+            </div>
+            <br><br>
+
+            <br />
+            <!-- subject -->
+            <div class="b-sub">
+                <label for="subject" class="buy-name">Subject</label> <br />
+                <input type="text" id="subject" name="subject" class="iptname"
+                    placeholder="Enter Your subject">
+            </div>      <br><br>
+        </div>
+
+
+        <div class="bm-sub">
+                <p><label for="message " class="buy-name">Message</label></p>
+                <textarea id="message" name="message" rows="4" cols="30" placeholder="Enter Your subject" class="buym-name"></textarea>
+        </div>
+        <button type="submit" class="formc-btn">Submit</button>
+
+      </div>
+
+
+
+    </div>
+    <script src="./togglebtn.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.buy-banner{
+    height: 500px;
+    margin-top: 3%;
+    background-color: rgb(25, 25, 26);
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.buy-head2{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.buy-head3{
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.buy-head4{
+    display: flex;
+    width: 30%;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+
+.lec{
+    color: white;
+    /* margin-top: 30px; */
+    font-size: 22px;
+    color: rgb(35, 195, 92);
+}
+
+.star{
+    font-size: 22px;
+    color: rgb(251, 144, 20);
+}
+
+
+.buy_img{
+    box-shadow: 1px 3px 30px rgba(120, 119, 119, 0.748);
+    border-radius: 0.75rem;
+    margin-left: 700px;
+    margin-top: -230px;
+
+}
+.course_form{
+    border: 1px solid white;
+    height: 700px;
+    width: 65%;
+    margin-left: 15%;
+    margin-top: -8%;
+    padding: 40px 50px;
+
+    backdrop-filter: blur(10px);
+    background-color: rgb(24, 26, 27);
+}
+
+
+.bm-sub{
+    margin-top: 5%;
+    padding: 0px 63px;
+
+}
+.buym-name{
+    color: white;
+   border: 2px solid  white;
+   background-color:rgb(24, 26, 27) ;
+   border-radius: 0.50rem;
+    height: 105px;
+   width: 98% !important;
+   margin-top: 10px;
+   cursor:text;
+   font-size: 18px;
+   padding: 10px 10px;
+
+    
+} 
+
+.buy-name{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+
+}
+.iptname{
+    /* color: white; */
+    border: 2px solid  white;
+    background-color: rgb(24, 26, 27);
+    color: white;
+    height: 40px;
+    width: 140% !important;
+    margin-top: 10px;
+    border-radius: 0.50rem;
+    cursor:text;
+    font-size: 15px;
+    padding: 10px;    
+}
+
+.b-sec1,
+.b-sec2
+{
+   display: flex;
+   justify-content: space-around;
+   /* border: 1px solid white; */
+   margin-top:5% ;
+   width: 100%;
+   
+   /* margin-left: 6%; */
+   /* padding: 20px ;  */
+}
+
+
+
+
+
+.toggle-container {
+   /* border: 3px solid rgb(81, 93, 177); */
+    border-radius: 5rem;
+    background-color: rgb(12, 12, 13) ;
+    box-shadow: 0px 0px 10px rgba(107, 105, 105, 0.748);
+}
+
+.buy-btn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.toggle-button {
+    padding: 13px 25px;
+    /* margin: 5px; */
+    border-radius: 5rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #070707;
+    transition: background-color 0.3s, color 0.3s;
+
+
+       /* border: 1px solid white; */
+    border: 1px solid transparent;
+}
+
+#student-btn {
+    /* background-color: #070707; */
+   word-spacing: 5px;
+    color: white;
+}
+
+#instructor-btn {
+    /* background-color: #e3e7e3; */
+    color:white ;
+    /* border-bottom-left-radius: 1rem; */
+}
+
+
+.toggle-button.selected {
+    background-color:rgb(81, 93, 177) ;
+    color: white;
+}
+
+.role-display {
+    /* padding: 5px 5px; */
+    /* border-radius: 5rem; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* gap: 10px; */
+    /* width: 70%; */
+    display: block;
+    align-items: center;
+    justify-content:flex-start;
+    color: #fafbfb;
+    /* box-shadow: 1px 3px 10px rgba(107, 105, 105, 0.748); */
+    font-size: 35px;
+    font-weight: bold;
+    background-color:rgb(24, 26, 27) ;
+}
+
+.role-display.student {
+    font-weight: bold;
+    /* color: rgb(81, 93, 177); */
+    color: rgba(255, 255, 255, 0.79);
+    padding: 0px;
+    border-radius: 0rem;
+    font-size: 35px;
+    margin-left: 10px;
+    width: 20%;
+    background-color: rgb(24, 26, 27);
+}
+
+
+.role-display.instructor {
+
+        /* color: black; */
+        font-weight: bold;
+        /* color: rgb(81, 93, 177); */
+        color: rgba(255, 255, 255, 0.79);
+        padding: 0px;
+        border-radius: 0rem;
+        font-size: 35px;
+        display: block;
+        align-items: center;
+        justify-content:flex-start;
+        gap: 0px;
+        margin-left: 20px;
+        width: 70%;
+        background-color: rgb(24, 26, 27);
+}
+
+.icon {
+    font-size: 32px;
+}
+
+
+.formc-btn{
+    color: white;
+    padding: 18px 40px;
+    border: 1px solid white;
+    border-radius:4em;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: rgb(101, 137, 187);
+    border-color: transparent;
+    cursor: pointer;
+
+  }
